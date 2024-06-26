@@ -121,7 +121,9 @@ input {
     background-color: var(--primary);
     border: none;
     border-radius: 20px;
-    border-color: var(--accent);
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
     height: 30px;
     width: 60%;
     color: var(--text-color);
@@ -133,6 +135,11 @@ input:focus {
     border-color: rgba(255, 182, 255, 0.301);
     outline: none;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+input:invalid:focus {
+    border-color: red;
+    outline: none;
 }
 
 label {
