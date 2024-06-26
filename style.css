@@ -120,14 +120,13 @@ button:hover {
 input {
     background-color: var(--primary);
     border: none;
-    border-radius: 2px;
-    border-width: 1px;
-    border-style: solid;
+    border-radius: 20px;
     border-color: var(--accent);
-    height: 25px;
+    height: 30px;
     width: 60%;
     color: var(--text-color);
     font-size: large;
+    padding: 5px;
 }
 
 input:focus {
