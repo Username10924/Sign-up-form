@@ -9,6 +9,7 @@ let passwordItem = document.querySelector(".password");
 submitBtn.addEventListener("click", (e) => {
     if(password.value != passwordConfirm.value) {
         passwordItem.appendChild(passwordError);
+        e.preventDefault();
     }
     else if(passwordItem.contains(passwordItem)) {
         passwordItem.removeChild(passwordError);
