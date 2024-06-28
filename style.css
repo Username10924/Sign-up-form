@@ -163,9 +163,10 @@ label {
 
 footer {
     color: var(--text-color);
-    position: fixed;
     bottom: 10px;
     align-self: center;
+    margin-top: auto;
+    margin-bottom: 10px;
 }
 
 footer a {
